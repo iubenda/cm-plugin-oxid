@@ -45,6 +45,11 @@ $aModule = [
             'block' => 'head_meta_robots',
             'file' => 'views/smarty/blocks/head_meta_robots.tpl',
         ],
+        [
+            'template' => 'layout/base.tpl',
+            'block' => 'theme_svg_icons',
+            'file' => 'views/smarty/blocks/theme_svg_icons.tpl',
+        ],
     ],
     'templates'   => [
         '@cmconsentmanager/admin/cmconsentmanager_main.tpl' => 'views/smarty/admin/consentmanager_main.tpl',
