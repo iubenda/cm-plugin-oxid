@@ -25,14 +25,18 @@ $aModule = [
     'id' => 'cmconsentmanager',
     'title' => 'consentmanager',
     'description' => [
-        'de' => '<b>Achtung:</b> Um dieses Modul nutzen zu können, müssen Sie sich kostenlos unter www.consentmanager.net registrieren.
-                 Melden Sie sich nach der Registrierung bei Ihrem Konto an, richten Sie Ihre Website(s) ein und klicken Sie auf 
-                 Menü> Codes abrufen in um die Code-ID Ihrer Website zu sehen. Gehen Sie dann 
-                 zu OXID Stammdaten > Grundeinstellungen > consentmanager und konfigurieren Sie das Modul.',
-        'en' => '<b>Attention:</b> In order to use this module, you have to register for free at www.consentmanager.net. 
-                 Once registered, please login to your account, setup your website(s) and click on Menu > Get Codes in 
-                 order to see the Code-ID of your website. Then go to OXID Master Settings > Core Settings > consentmanager
-                 and configure the module.',
+        'de' => '<ol><li>Log dich in deinem consentmanager Account ein und kopiere deine CMP code ID</li>
+                <li>Füge die CMP code ID in den OXID consentmanager Plugin Einstellungen ein</li>
+                <li>Wähle deinem Blockierungsmodus: automatisch / halbautomatisch</li>
+                <li>Speicher die Plugineinstellungen & fertig</li></ol>
+                <p>Du hast noch keinen consentmanager Account?</p>
+                <p>Hole dir hier deinen kostenlosen Account: <a href="https://app.consentmanager.net/register.php?setlang=1">https://app.consentmanager.net/register.php?setlang=1</a></p>',
+        'en' => '<ol><li>Login to your consentmanager account and get your CMP code ID</li>
+                <li>Enter the CMP code ID in the OXID consentmanager plugin settings</li>
+                <li>Choose your blocking mode: automatic / semi-automatic</li>
+                <li>Save plugin settings & enjoy</li></ol>
+                <p>You do not have a consentmanager account yet?</p>
+                <p>Register here for free: <a href="https://app.consentmanager.net/register.php">https://app.consentmanager.net/register.php</a></p>',
     ],
     'thumbnail' => 'logo.png',
     'version' => '2.0.0',
